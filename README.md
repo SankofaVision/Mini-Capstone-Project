@@ -1,2 +1,138 @@
-# Mini-Capstone-Project
-First Team Project
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dNK7xGxu)
+# SPARK Academy 2026 | Mini Capstone Project
+
+**Submission Deadline:** 20th March 2026 · 11:59 PM GMT+1  
+**Submission Method:** Push all files to this GitHub Classroom repo before the deadline
+
+---
+
+## 📌 Project Title
+
+> Replace this line with the full name of your assigned project
+> e.g. *Patient Records Management System*
+
+---
+
+## 👥 Team Name & Members
+
+**Team Name:** `Team Name`
+
+| Full Name | Task Carried Out |
+|-----------|-----------------|
+| e.g. Amina Yusuf | Built the Patient class and RecordsManager class |
+| e.g. Kwame Asante | Handled data loading and cleaning with Pandas |
+| e.g. Chidera Obi | Created all three visualisations using Matplotlib |
+| e.g. Fatima Al-Hassan | Wrote standalone functions and the main program loop |
+| e.g. Lena Mokoena | Wrote the README and assembled the PDF report |
+
+---
+
+## 📖 What This Project Does
+
+> Write 2–3 sentences here explaining:
+> - What your program does
+> - What real-world problem it addresses
+> - Who would use it in a health or clinical setting
+
+---
+
+## 🗂️ Repository Structure
+
+```
+├── data/
+│   └── dataset.csv        # Dataset provided for this project
+├── report/
+│   └── report.pdf                # One-page project report (push PDF here)
+├── main.py                       # Main program entry point (or main.ipynb)
+├── README.md                     # This file
+└── requirements.txt              # List of Python libraries used
+```
+
+---
+
+## ⚙️ How to Run This Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/SPARK-Academy/Mini-Capstone-2026-Team-Name.git
+cd Mini-Capstone-2026-Team-Name
+```
+
+### 2. Install required libraries
+```bash
+pip install -r requirements.txt
+```
+
+> If you don't have a `requirements.txt` yet, install manually:
+> ```bash
+> pip install pandas matplotlib seaborn
+> ```
+
+### 3. Run the program
+
+**If using a Python script:**
+```bash
+python main.py
+```
+
+**If using a Jupyter Notebook:**
+```bash
+    explain
+```
+
+---
+
+## 📦 Requirements
+
+List all libraries your project uses. Add these to your `requirements.txt` file:
+
+```
+pandas
+matplotlib
+seaborn
+```
+
+> Add any additional libraries your team uses below these.
+
+---
+
+## 📊 Visualisations
+
+> Briefly describe the 3 charts your project produces:
+>
+> 1. **Chart 1** — e.g. Bar chart showing diagnosis frequency across all patients
+> 2. **Chart 2** — e.g. Histogram showing age distribution of patients
+> 3. **Chart 3** — e.g. Pie chart showing gender breakdown
+
+---
+
+## 🧱 Classes & Functions
+
+> Briefly list the classes and standalone functions in your project:
+>
+> **Classes:**
+> - `ClassName` — what it does
+> - `ClassName` — what it does
+>
+> **Standalone Functions:**
+> - `function_name()` — what it does
+> - `function_name()` — what it does
+> - `function_name()` — what it does
+
+---
+
+## 📄 Report
+
+The one-page PDF report is located in the `report/` folder.
+It covers: project overview, technical summary, challenges faced, and team contributions.
+
+---
+
+## ⚠️ Academic Integrity
+
+This project was built independently by our team.
+We did not share code or collaborate with any other team assigned to the same project.
+
+---
+
+*SPARK Academy 2026 · Mini Capstone · Submitted via GitHub Classroom*
