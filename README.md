@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Scan Scheduling & Queue Manager System
+## 📌 Scan Scheduling & Queue Management System
 
 ---
 
