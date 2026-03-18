@@ -6,10 +6,7 @@
 
 ---
 
-## 📌 Project Title
-
-> Replace this line with the full name of your assigned project
-> e.g. *Patient Records Management System*
+## 📌 Scan Scheduling & Queue Manager System
 
 ---
 
