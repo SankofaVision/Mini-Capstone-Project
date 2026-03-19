@@ -101,6 +101,12 @@ def summary_stats(df):
     print("\nScan Type Distribution:")
     print(df["scan_type"].value_counts().to_string())
 
+# Create queue function
+# Create prioritise urgent patients function
+# Schedule scans
+#Calculate waiting times
+#Generate charts function
+
 
 def main():
     parser = argparse.ArgumentParser(description="Scan Scheduling & Queue Manager")
@@ -108,7 +114,7 @@ def main():
     parser.add_argument(
         "file",
         type=str,
-        help="Path to the CSV file"
+        help="Path to the CSV file" #replace with path to csv file
     )
 
     args = parser.parse_args()
@@ -118,6 +124,7 @@ def main():
     df = sort_by_urgency(df)
 
     summary_stats(df)
+    #all the other functions should be called as well 
 
 
 if __name__ == "__main__":
