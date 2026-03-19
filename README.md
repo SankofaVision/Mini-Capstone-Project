@@ -74,7 +74,7 @@ python main.py
 
 ## 📊 Visualisations
 
-> Briefly describe the 3 charts your project produces:
+> Below are the 3 charts the project produces:
 >
 > 1. **Chart 1** —  Bar chart showing queue by scan type
 > 2. **Chart 2** — Line chart showing wait times across day
