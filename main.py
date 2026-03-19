@@ -2,12 +2,11 @@
 import pandas as pd
 import argparse
 
-
 # Data Loading
 def load_data(file_path):
     df = pd.read_csv(file_path)
     print(df.to_string())
-   
+    return df
 
 
 # Handling missing data
