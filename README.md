@@ -66,17 +66,10 @@ pip install -r requirements.txt
 
 ### 3. Run the program
 
-**If using a Python script:**
 ```bash
 python main.py
 ```
 
-**If using a Jupyter Notebook:**
-```bash
-    explain
-```
-
----
 
 
 ## 📊 Visualisations
