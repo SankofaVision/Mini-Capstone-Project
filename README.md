@@ -37,11 +37,15 @@
 
 ```
 ├── data/
-│   └── dataset.csv        # Dataset provided for this project
+│   └── 11_scan_requests.csv        # Dataset provided for this project
 ├── report/
 │   └── report.pdf                # One-page project report (push PDF here)
-├── main.py                       # Main program entry point (or main.ipynb)
-├── README.md                     # This file
+├── main.py                     # Main program entry point 
+├── patient.py
+├── scan.py
+├── scheduler.py 
+├── Visualizations.py
+├── README.md                    
 └── requirements.txt              # List of Python libraries used
 ```
 
@@ -52,18 +56,13 @@
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/SankofaVision/Mini-Capstone-Project.git
-cd Mini-Capstone-2026-Team-Name
+cd Mini-Capstone-Project
 ```
 
 ### 2. Install required libraries
 ```bash
 pip install -r requirements.txt
 ```
-
-> If you don't have a `requirements.txt` yet, install manually:
-> ```bash
-> pip install pandas matplotlib seaborn
-> ```
 
 ### 3. Run the program
 
@@ -79,19 +78,6 @@ python main.py
 
 ---
 
-## 📦 Requirements
-
-List all libraries your project uses. Add these to your `requirements.txt` file:
-
-```
-pandas
-matplotlib
-seaborn
-```
-
-> Add any additional libraries your team uses below these.
-
----
 
 ## 📊 Visualisations
 
