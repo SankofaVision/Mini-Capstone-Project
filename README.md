@@ -51,7 +51,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/SPARK-Academy/Mini-Capstone-2026-Team-Name.git
+git clone https://github.com/SankofaVision/Mini-Capstone-Project.git
 cd Mini-Capstone-2026-Team-Name
 ```
 
