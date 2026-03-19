@@ -1,11 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dNK7xGxu)
 # SPARK Academy 2026 | Mini Capstone Project
 
-**Submission Deadline:** 20th March 2026 · 11:59 PM GMT+1  
-**Submission Method:** Push all files to this GitHub Classroom repo before the deadline
-
----
-
 ## 📌 Scan Scheduling & Queue Management System
 
 ---
@@ -15,12 +10,17 @@
 **Team Name:** Team Ghana-Accra -SankofaVision
 
 | Full Name | Task Carried Out |
-|-----------|-----------------|
-| e.g. Amina Yusuf | Built the Patient class and RecordsManager class |
-| e.g. Kwame Asante | Handled data loading and cleaning with Pandas |
-| e.g. Chidera Obi | Created all three visualisations using Matplotlib |
-| e.g. Fatima Al-Hassan | Wrote standalone functions and the main program loop |
-| e.g. Lena Mokoena | Wrote the README and assembled the PDF report |
+|-----------|------------------|
+|Samuel Ankapong | Worked on data loading and cleaning using Pandas |
+| Emmanuel Oppong | Worked on data loading and cleaning using Pandas |
+| Bernice Awinpang | Developed Patient and Scan classes |
+| Stella Quansah | Developed Patient and Scan classes |
+| Ignatius Boadi | Implemented queue prioritisation and scheduling logic |
+| Ophelia Dankyi | Implemented queue prioritisation and scheduling logic |
+| Mariama Musa | Created visualisations using Matplotlib |
+| Nicholas Hisrich Addisi | Created visualisations using Matplotlib |
+| | Wrote README and contributed to report |
+|  | Wrote PDF report and coordinated final submission |
 
 ---
 
