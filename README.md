@@ -12,7 +12,7 @@
 
 ## 👥 Team Name & Members
 
-**Team Name:** `Team Name`
+**Team Name:** Team Ghana-Accra -SankofaVision
 
 | Full Name | Task Carried Out |
 |-----------|-----------------|
