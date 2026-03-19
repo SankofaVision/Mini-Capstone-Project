@@ -34,4 +34,17 @@ class Scheduler:
             scan.start_scan(start_time)
             current_time = scan.end_time
 
+    def get_results(self):
+        """
+        Convert results to DataFrame for analysis/visualization
+        """
+        data = []
+        for scan in self.scans:
+            data.append({'scan_id': scan.scan_id, 'patient_name': scan.patient.name, 'scan_type': scan.scan_type,
+                         'urgency': scan.patient.urgency, 'arrival_time': scan.patient.arrival_time.time(),
+                         'start_time': scan.start_time.time() if scan.start_time else None,
+                         'end_time': scan.end_time.time() if scan.end_time else None,
+                         'wait_time_min': round(scan.get_wait_time(), 1)
+                         })
 
+        return pd.DataFrame(data)
