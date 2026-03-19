@@ -76,9 +76,9 @@ python main.py
 
 > Briefly describe the 3 charts your project produces:
 >
-> 1. **Chart 1** — e.g. Bar chart showing diagnosis frequency across all patients
-> 2. **Chart 2** — e.g. Histogram showing age distribution of patients
-> 3. **Chart 3** — e.g. Pie chart showing gender breakdown
+> 1. **Chart 1** —  Bar chart showing queue by scan type
+> 2. **Chart 2** — Line chart showing wait times across day
+> 3. **Chart 3** — Pie chart showing urgency breakdown
 
 ---
 
