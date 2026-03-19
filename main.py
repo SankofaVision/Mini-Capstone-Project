@@ -101,11 +101,6 @@ def summary_stats(df):
     print("\nScan Type Distribution:")
     print(df["scan_type"].value_counts().to_string())
 
-# Create queue function
-# Create prioritise urgent patients function
-# Schedule scans
-#Calculate waiting times
-#Generate charts function
 
 
 def main():
@@ -122,9 +117,14 @@ def main():
     df = load_data(args.file)
     df = clean_data(df)
     df = sort_by_urgency(df)
-
-    summary_stats(df)
-    #all the other functions should be called as well 
+#Workflow
+    #create queue
+    #prioritise urgent patients 
+    #schedule scans
+    #calculate waiting times for those whose status is pending
+   # generate summary statistics from scheduler
+   #generate charts
+    
 
 
 if __name__ == "__main__":
