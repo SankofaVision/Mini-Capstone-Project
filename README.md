@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dNK7xGxu)
 # SPARK Academy 2026 | Mini Capstone Project
 
-## 📌 Scan Scheduling & Queue Management System
+## 📌 Scan Scheduling & Queue ManageR
 
 ---
 
@@ -19,17 +19,22 @@
 | Ophelia Dankyi | Implemented queue prioritisation and scheduling logic |
 | Mariama Musa | Created visualisations using Matplotlib |
 | Nicholas Hisrich Addisi | Created visualisations using Matplotlib |
-| | Wrote README and contributed to report |
-|  | Wrote PDF report and coordinated final submission |
+| Thomas Kangah| Wrote README and contributed to report |
+| Swallah Alhaji Suraka| Wrote PDF report and coordinated final submission |
 
 ---
 
 ## 📖 What This Project Does
 
-> Write 2–3 sentences here explaining:
-> - What your program does
-> - What real-world problem it addresses
-> - Who would use it in a health or clinical setting
+> - What the program does:
+>   
+> The program simulates a hospital scan department that manages patient queues for MRI, CT, Ultrasound, PET and X-Ray scans throughout a typical working day. It models how patients arrive with different urgency levels and how these requests are scheduled and processed using a prioritisation system. 
+> - The problem it addresses:
+>   
+> The program addresses the challenge of efficiently ordering patients based on urgency while minimizing waiting times. By incorporating queue management logic and tracking wait times, the system provides insights into how scan resources are utilized over time. 
+> - Who would use it:
+>   
+> The program can be used by hospital administrators and healthcare planners to optimise scheduling decisions, improve patient flow and enhance overall operational efficiency in real healthcare settings.
 
 ---
 
@@ -38,8 +43,7 @@
 ```
 ├── data/
 │   └── 11_scan_requests.csv        # Dataset provided for this project
-├── report/
-│   └── report.pdf                # One-page project report (push PDF here)
+├── PROJECT_REPORT.pdf                # One-page project report (push PDF here)
 ├── main.py                     # Main program entry point 
 ├── patient.py
 ├── scan.py
@@ -87,13 +91,14 @@ python main.py
 > Briefly list the classes and standalone functions in your project:
 >
 > **Classes:**
-> - `ClassName` — what it does
-> - `ClassName` — what it does
+> - `Patient` — stores patient details and urgency levels
+> - `Scan` — represents individual scan requests
+> - `Scheduler` — class manages the queue and prioritises patients using a sorting mechanism based on urgency levels (Critical, High, Medium, Low)
 >
 > **Standalone Functions:**
-> - `function_name()` — what it does
-> - `function_name()` — what it does
-> - `function_name()` — what it does
+> - `load_patients()` — loads scan request data from a CSV file using Pandas
+> - `prioritise_queue()` — sorts patients based on urgency
+> - `calculate_wait_time()` — computes patient wait times throughout the day
 
 ---
 

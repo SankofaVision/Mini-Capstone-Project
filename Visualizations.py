@@ -2,17 +2,8 @@
 # coding: utf-8
 
 
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-
-
-def load_data(data):
-    dataset = pd.read_csv(data)
-    return dataset
-
-data = load_data("11_scan_requests.csv")
-data.head()
 
 
 def plots(data):
@@ -69,7 +60,7 @@ def plots(data):
     plt.tight_layout()
     plt.show()
 
-plots(data)
+
 
 
 
