@@ -102,14 +102,13 @@ def summary_stats(df):
     print(df["scan_type"].value_counts().to_string())
 
 
-
 def main():
     parser = argparse.ArgumentParser(description="Scan Scheduling & Queue Manager")
 
     parser.add_argument(
         "file",
         type=str,
-        help="Path to the CSV file" #replace with path to csv file
+        help="Path to the CSV file"  #replace with path to csv file
     )
 
     args = parser.parse_args()
@@ -117,14 +116,42 @@ def main():
     df = load_data(args.file)
     df = clean_data(df)
     df = sort_by_urgency(df)
+
+
 #Workflow
+
+class Scheduler:
+    def __init__(self, csv_path):
+        self.csv_path = csv_path
+
+
+
+class Patients:
+    def __init__(self, name, scheduler):
+        self.data = scheduler.patients_data.query(f"`patient_name` == '{name}'")
+        assert name in self.data['patient_name'].unique(), f'Patient with name {name} does not exist in database.'
+        self.name = name
+        self.age = self.data['age'].item()
+        self.urgency = self.data['urgency'].item()
+        self.gender = self.data['gender'].item()
+        self.arrival_time = self.data['arrival_time'].item()
+        self.wait_time = self.data['wait_time'].item()
+
+    def update_status(self, new_status):
+        scheduler.patients_data.loc[scheduler.patients_data['patient_name'] == self.name, 'status'] = new_status
+
+
+class Scans:
+    def __init__(self, scan_id, scheduler):
+        pass
     #create queue
     #prioritise urgent patients 
     #schedule scans
     #calculate waiting times for those whose status is pending
-   # generate summary statistics from scheduler
-   #generate charts
-    
+
+
+# generate summary statistics from scheduler
+#generate charts
 
 
 if __name__ == "__main__":
