@@ -48,7 +48,6 @@
 ├── patient.py
 ├── scan.py
 ├── scheduler.py 
-├── Visualizations.py
 ├── README.md                    
 └── requirements.txt              # List of Python libraries used
 ```
