@@ -26,10 +26,12 @@
 
 ## 📖 What This Project Does
 
-> Write 2–3 sentences here explaining:
-> - What your program does
-> - What real-world problem it addresses
-> - Who would use it in a health or clinical setting
+> - What the program does
+> The program simulates a hospital scan department that manages patient queues for MRI, CT, Ultrasound, PET and X-Ray scans throughout a typical working day. It models how patients arrive with different urgency levels and how these requests are scheduled and processed using a prioritisation system. 
+> - The problem it addresses 
+> The program addresses the challenge of efficiently ordering patients based on urgency while minimizing waiting times. By incorporating queue management logic and tracking wait times, the system provides insights into how scan resources are utilized over time. 
+> - Who would use it
+> The program can be used by hospital administrators and healthcare planners to optimise scheduling decisions, improve patient flow and enhance overall operational efficiency in real healthcare settings.
 
 ---
 
