@@ -43,8 +43,7 @@
 ```
 ├── data/
 │   └── 11_scan_requests.csv        # Dataset provided for this project
-├── report/
-│   └── report.pdf                # One-page project report (push PDF here)
+├── REPORT.pdf                # One-page project report (push PDF here)
 ├── main.py                     # Main program entry point 
 ├── patient.py
 ├── scan.py
