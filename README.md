@@ -91,13 +91,14 @@ python main.py
 > Briefly list the classes and standalone functions in your project:
 >
 > **Classes:**
-> - `ClassName` — what it does
-> - `ClassName` — what it does
+> - `Patient` — stores patient details and urgency levels
+> - `Scan` — represents individual scan requests
+> - `Scheduler` — class manages the queue and prioritises patients using a sorting mechanism based on urgency levels (Critical, High, Medium, Low)
 >
 > **Standalone Functions:**
-> - `function_name()` — what it does
-> - `function_name()` — what it does
-> - `function_name()` — what it does
+> - `load_patients()` — loads scan request data from a CSV file using Pandas
+> - `prioritise_queue()` — sorts patients based on urgency
+> - `calculate_wait_time()` — computes patient wait times throughout the day
 
 ---
 
