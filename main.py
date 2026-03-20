@@ -152,8 +152,8 @@ class Scheduler:
         pending = self.patients_data[self.patients_data['status'] == 'Pending'].copy()
         in_progress = self.patients_data[self.patients_data['status'] == 'In Progress'].copy()
         other = self.patients_data[~self.patients_data['status'].isin(['Pending', 'In Progress'])].copy()
-        other['wait_time_min'] = np.nan
-        in_progress['wait_time_min'] = np.nan
+        # other['wait_time_min'] = np.nan
+        # in_progress['wait_time_min'] = np.nan
         pending['scan_duration'] = pending['scan_type'].map(self.durations)
         in_progress['scan_duration'] = in_progress['scan_type'].map(self.durations)
         if not pending.empty:
