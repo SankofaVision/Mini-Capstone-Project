@@ -28,7 +28,7 @@ def main():
     parser.add_argument(
         "file",
         type=str,
-        help=r"Path to the CSV file"  # replace with path to csv file
+        help="Path to the CSV file" 
     )
 
     args = parser.parse_args()
